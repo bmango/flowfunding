@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="017e1e0.netsolhost.com" id="457a1c93-cdee-49d5-982c-3d3923d89e1c" port="22" customName="Flowfunding Network Solutions" nameFormat="CUSTOM" username="flowfunding" useOpenSSHConfig="true">
+        <option name="customName" value="Flowfunding Network Solutions" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+body {
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/images/bg_shadow.png');
+	height: 100%;
+}
+#header {
+	position: absolute;
+}
+#header h1 {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/images/logo.png');
+}
+#header h1 img {
+	visibility: hidden;
+}
+#content {
+	height: auto;
+}
+#copy {
+	margin: 0 32px 0 0;
+}
+#navigation {
+	margin: 5px 0 0 32px;
+}
+#navigation li {
+	border-bottom: 1px solid #fff;
+}
+
+/* =Home page= */
+body.home {
+	filter: none;
+	border: none;
+}
+body.home #wrap {
+	height: 592px;
+}
+body.home #copy h2 {
+	width: 400px;
+}
+	body.home #copy h2 em {
+		font-style: normal;
+	}
+body.home #copy p {
+	width: 500px;
+}

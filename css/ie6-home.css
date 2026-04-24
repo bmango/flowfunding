@@ -1,0 +1,17 @@
+/* =Home page= */
+body.home {
+	filter: none;
+	border: none;
+}
+body.home #wrap {
+	height: 592px;
+}
+body.home #copy h2 {
+	width: 400px;
+}
+	body.home #copy h2 em {
+		font-style: normal;
+	}
+body.home #copy p {
+	width: 500px;
+}

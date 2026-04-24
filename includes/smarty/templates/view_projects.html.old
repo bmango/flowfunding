@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p>Flow Fund Database</p>
+<p>&nbsp;</p>
+<table width="80%" border="0">
+  <tr> 
+    <td width="23%" rowspan="4" valign="top"> <table width="100%" border="0">
+        {{section name=org_table loop=$org_id}} {{strip}} 
+        <tr bgcolor="{{cycle values="#eeeeee,#dddddd"}}"> 
+          <td><a href="view_project.php?id={{$org_id[org_table]}}">{{$org_types[org_table]}}</a></td>
+        </tr>
+        {{/strip}} {{/section}} 
+      </table>
+      <p>&nbsp;</p></td>
+    <td width="77%">Your Search Results</td>
+  </tr>
+  <tr>
+    <td>{{$total_records}} Result(s) found</td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="">{{section name=projects loop=$id}} 
+      <table width="100%" border="1">
+        <tr> 
+          <td><p><strong>project name:</strong> {{$project_name[projects]}}<br>
+              <strong>categories:</strong> {{$categories[projects]}}<br>
+              <strong>project location: </strong>{{$project_location[projects]}}<br>
+              <strong>ffch:</strong> {{$ffch[projects]}}<br>
+              <strong>web site:</strong> {{$websites[projects]}}<br>
+              <strong>flow funder name:</strong> {{$flow_funder[projects]}}<br>
+              <strong>gift amount: </strong>${{$gift_amount[projects]}}</p>
+            <p><strong>Project description</strong><br>
+              {{$project_description[projects]}}</p>
+            <p><strong>Notes</strong><br>
+              {{$notes[projects]}} </p></td>
+        </tr>
+	
+      </table>
+      {{/section}}</td>
+  </tr>
+</table>
+<p>&nbsp; </p>
+</body>
+</html>

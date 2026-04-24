@@ -1,0 +1,10 @@
+this script was put here by Bill Fisher -- bill@fisherwebdev.com
+
+this script achieves a lightbox effect.  
+
+we are using it here for youtube videos and for images.
+
+note that this many files in this folder are used by the script, not just ibox.js.
+
+i modified the script a bit to a make it comply with youtube better.
+
